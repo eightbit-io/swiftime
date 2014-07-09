@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373F0670196D564700740B96 /* FUNJailbreakDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373F066F196D564700740B96 /* FUNJailbreakDetector.swift */; };
 		376DEB1419639A2B00772007 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DEB1319639A2B00772007 /* AppDelegate.swift */; };
 		376DEB1619639A2B00772007 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 376DEB1519639A2B00772007 /* Images.xcassets */; };
 		376DEB2219639A2B00772007 /* swiftimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DEB2119639A2B00772007 /* swiftimeTests.swift */; };
+		376DEB2E19639C1A00772007 /* FUNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376DEB2D19639C1A00772007 /* FUNViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		373F066F196D564700740B96 /* FUNJailbreakDetector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FUNJailbreakDetector.swift; sourceTree = "<group>"; };
 		376DEB0E19639A2B00772007 /* swiftime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		376DEB1219639A2B00772007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		376DEB1319639A2B00772007 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +33,7 @@
 		376DEB1B19639A2B00772007 /* swiftimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		376DEB2019639A2B00772007 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		376DEB2119639A2B00772007 /* swiftimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftimeTests.swift; sourceTree = "<group>"; };
+		376DEB2D19639C1A00772007 /* FUNViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FUNViewController.swift; path = ../FUNViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		376DEB1019639A2B00772007 /* swiftime */ = {
 			isa = PBXGroup;
 			children = (
+				376DEB2D19639C1A00772007 /* FUNViewController.swift */,
+				373F066F196D564700740B96 /* FUNJailbreakDetector.swift */,
 				376DEB1319639A2B00772007 /* AppDelegate.swift */,
 				376DEB1519639A2B00772007 /* Images.xcassets */,
 				376DEB1119639A2B00772007 /* Supporting Files */,
@@ -147,6 +153,7 @@
 		376DEB0619639A2B00772007 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FUN;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = bitcraft;
 				TargetAttributes = {
@@ -200,7 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376DEB2E19639C1A00772007 /* FUNViewController.swift in Sources */,
 				376DEB1419639A2B00772007 /* AppDelegate.swift in Sources */,
+				373F0670196D564700740B96 /* FUNJailbreakDetector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +386,7 @@
 				376DEB2719639A2B00772007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		376DEB2819639A2B00772007 /* Build configuration list for PBXNativeTarget "swiftimeTests" */ = {
 			isa = XCConfigurationList;
@@ -385,6 +395,7 @@
 				376DEB2A19639A2B00772007 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
